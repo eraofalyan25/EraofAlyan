@@ -905,7 +905,7 @@ form.consult{display:flex; flex-direction:column; gap:16px;}
         <div class="card reveal" style="text-align:center; padding:26px 18px;">
           <div style="font-size:30px; color:var(--gold-bright); margin-bottom:10px;">&#9816;</div>
           <h3 style="font-size:15px;">IELTS Track</h3>
-          <p style="font-size:13px;">Typical movement: Band 5.5 to Band 7.0.</p>
+          <p style="font-size:13px;">Typical movement: Band 5.5 to Band 7.5.</p>
         </div>
         <div class="card reveal" style="text-align:center; padding:26px 18px;">
           <div style="font-size:30px; color:var(--gold-bright); margin-bottom:10px;">&#9815;</div>
@@ -925,7 +925,7 @@ form.consult{display:flex; flex-direction:column; gap:16px;}
   <section id="founder">
     <div class="wrap">
       <div class="section-head reveal">
-        <div class="eyebrow">FOUNDER &amp; ENTREPRENEUR</div>
+        <div class="eyebrow">FOUNDER &amp; ENTREPRENEUR & The CEO</div>
         <h2>Alyan Haider</h2>
       </div>
       <div class="card reveal" style="padding:42px; max-width:880px;">
@@ -1092,7 +1092,7 @@ form.consult{display:flex; flex-direction:column; gap:16px;}
   <div class="popup-card">
     <button class="popup-close" id="popupClose" aria-label="Close">✕</button>
     <h2 style="font-size:1.6rem; margin-bottom:8px;">Course Inquiry</h2>
-    <p style="color:var(--ivory-dim); font-size:14px; margin-bottom:22px;">Fill this out and we'll contact you within 24 hours.</p>
+    <p style="color:var(--ivory-dim); font-size:14px; margin-bottom:22px;">Fill this out and we'll contact you within 24 hours. If you do not get reponse with in 24 hours Kindly Contact us on Whats'app. Vielen Dank</p>
     <form action="https://formspree.io/f/xgojknjz" method="POST" style="display:flex; flex-direction:column; gap:14px;">
       <input type="hidden" name="_subject" value="Popup inquiry - ERA of Alyan website">
       <div class="field"><input class="field-input-popup" name="Name" type="text" placeholder="Full name" required style="background:rgba(255,255,255,0.04); border:1px solid var(--line-strong); border-radius:7px; color:var(--ivory); font-family:var(--body); font-size:14px; padding:11px 12px;"></div>
@@ -1373,6 +1373,9 @@ form.consult{display:flex; flex-direction:column; gap:16px;}
 
     if(/\b(timing|schedule|time|class|online|virtual)\b/.test(m))
       return "All classes are 100% virtual - you can start anytime. Ask us for the current batch timing on a call.";
+
+     if(/\b(timing|schedule|time|class|online|virtual)\b/.test(m))
+      return "For further Questions. Kindly fill the form or Email Us. Vielen Dank.";
 
     return "I can help with German, IELTS, Sciences, Graphic Design, MS Office, fees, or enrollment. Try asking about one of these!";
   }
